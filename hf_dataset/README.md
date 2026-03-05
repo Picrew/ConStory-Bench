@@ -33,7 +33,7 @@ size_categories:
   <a href="https://picrew.github.io/constory-bench.github.io/leadboard/">Leaderboard</a>
 </p>
 
-## What is ConStory-Bench?
+## 🔍 What is ConStory-Bench?
 
 A benchmark for evaluating **narrative consistency** in long-form story generation. It includes prompts across 4 task types and evaluations using an LLM-as-judge pipeline (**ConStory-Checker**) that detects contradictions with exact quotes.
 
@@ -47,7 +47,7 @@ A benchmark for evaluating **narrative consistency** in long-form story generati
 
 🏆 **With ConStory-Bench, we aim to track how well LLMs maintain narrative consistency as they scale. View our [Leaderboard](https://picrew.github.io/constory-bench.github.io/leadboard/) (updating).**
 
-## Files
+## 📦 Files
 
 ```text
 assets/
@@ -92,7 +92,7 @@ evaluations/
   └── suri_orpo.csv
 ```
 
-## Schema
+## 🧩 Schema
 
 ### prompts.parquet
 
@@ -139,7 +139,7 @@ Each CSV has the story columns plus **19 error subtype columns**. Each error col
 - `timeline_plot_absolute_time_contradictions`, `timeline_plot_duration_timeline_contradictions`, `timeline_plot_simultaneity_contradictions`, `timeline_plot_causeless_effects`, `timeline_plot_causal_logic_violations`, `timeline_plot_abandoned_plot_elements`
 - `world_building_core_rules_violations`, `world_building_social_norms_violations`, `world_building_geographical_contradictions`
 
-## Quick Start
+## ⚡ Quick Start
 
 ```python
 from datasets import load_dataset
@@ -157,7 +157,7 @@ stories_df = pd.read_parquet("hf://datasets/jayden8888/ConStory-Bench/stories.pa
 eval_df = pd.read_csv("hf://datasets/jayden8888/ConStory-Bench/evaluations/gpt5_reasoning.csv")
 ```
 
-## Evaluated Models
+## 🤖 Evaluated Models
 
 | Category | Models |
 | --- | --- |
@@ -166,7 +166,7 @@ eval_df = pd.read_csv("hf://datasets/jayden8888/ConStory-Bench/evaluations/gpt5_
 | Capability-enhanced | LongWriter-Zero-32B, Suri-ORPO, LongAlign-13B |
 | Agent-enhanced | SuperWriter, DOME |
 
-## Citation
+## 📝 Citation
 
 ```bibtex
 @article{constorybench2025,
@@ -177,6 +177,6 @@ eval_df = pd.read_csv("hf://datasets/jayden8888/ConStory-Bench/evaluations/gpt5_
 }
 ```
 
-## License
+## 📄 License
 
 MIT

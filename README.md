@@ -18,7 +18,7 @@
 
 ---
 
-## Overview
+## 🔍 Overview
 
 LLMs can generate stories with tens of thousands of words, but they often contradict themselves along the way — characters forget their backstories, timelines break, and world rules silently change.
 
@@ -42,7 +42,7 @@ ConStory-Checker detects consistency errors across **5 categories** (19 subtypes
 
 🏆 **With ConStory-Bench, we aim to track how well LLMs maintain narrative consistency as they scale. View our [Leaderboard](https://picrew.github.io/constory-bench.github.io/leadboard/) (updating).**
 
-## Dataset
+## 📦 Dataset
 
 All data is hosted on HuggingFace: [jayden8888/ConStory-Bench](https://huggingface.co/datasets/jayden8888/ConStory-Bench)
 
@@ -74,7 +74,7 @@ prompts = pd.read_parquet("hf://datasets/jayden8888/ConStory-Bench/prompts.parqu
 stories = pd.read_parquet("hf://datasets/jayden8888/ConStory-Bench/stories.parquet")
 ```
 
-## Quick Start
+## ⚡ Quick Start
 
 ### Install
 
@@ -235,7 +235,7 @@ ConStory-Bench/
     └── run_judge.sh
 ```
 
-## Citation
+## 📝 Citation
 
 ```bibtex
 @article{constorybench2025,
