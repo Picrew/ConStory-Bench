@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Data (large files → HuggingFace)
+data/stories/*.parquet
+data/evaluations/*.csv
+output/
+
+# HuggingFace dataset artifacts (upload separately to HF)
+hf_dataset/*.parquet
+hf_dataset/evaluations/*.csv
+
+# Environment
+.env
+.env.local
+
+# Jupyter
+.ipynb_checkpoints/

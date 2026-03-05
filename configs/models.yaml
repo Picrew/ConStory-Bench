@@ -1,0 +1,210 @@
+# ConStory-Bench Model Configuration
+# Each model entry defines:
+#   name:         Display name (used in leaderboard tables)
+#   eval_file:    Evaluation CSV filename (in evaluations/ directory)
+#   story_column: Column name containing the generated story text in the CSV
+#   category:     Model category for grouping
+#   organization: Organization / company
+
+models:
+  # ============ Proprietary Models ============
+  - name: "GPT-5-Reasoning"
+    eval_file: "gpt5_reasoning.csv"
+    story_column: "gpt5_reasoning_story"
+    category: "Proprietary Models"
+    organization: "OpenAI"
+
+  - name: "Gemini-2.5-Pro"
+    eval_file: "gemini_25_pro.csv"
+    story_column: "gemini_25_pro_story"
+    category: "Proprietary Models"
+    organization: "Google"
+
+  - name: "Gemini-2.5-Flash"
+    eval_file: "gemini_25_flash.csv"
+    story_column: "gemini_25_flash_story"
+    category: "Proprietary Models"
+    organization: "Google"
+
+  - name: "Claude-Sonnet-4.5"
+    eval_file: "claude_sonnet_45.csv"
+    story_column: "claude_sonnet_45_story"
+    category: "Proprietary Models"
+    organization: "Anthropic"
+
+  - name: "Grok-4"
+    eval_file: "grok4.csv"
+    story_column: "grok4_story"
+    category: "Proprietary Models"
+    organization: "xAI"
+
+  - name: "GPT-4o-1120"
+    eval_file: "gpt4o_1120.csv"
+    story_column: "gpt4o1120_story"
+    category: "Proprietary Models"
+    organization: "OpenAI"
+
+  - name: "Doubao-1.6-Thinking-2507"
+    eval_file: "doubao.csv"
+    story_column: "doubao_story"
+    category: "Proprietary Models"
+    organization: "ByteDance"
+
+  - name: "Mistral-Medium-3.1"
+    eval_file: "mistral_medium_31.csv"
+    story_column: "mistral_medium_31_story"
+    category: "Proprietary Models"
+    organization: "Mistral"
+
+  # ============ Open-source Models ============
+  - name: "GLM-4.6"
+    eval_file: "glm46.csv"
+    story_column: "glm46_story"
+    category: "Open-source Models"
+    organization: "ZhipuAI"
+
+  - name: "Qwen3-32B"
+    eval_file: "qwen3_32b.csv"
+    story_column: "qwen3_32b_story"
+    category: "Open-source Models"
+    organization: "Alibaba"
+
+  - name: "Ring-1T"
+    eval_file: "ring_1t.csv"
+    story_column: "ring_1t_story"
+    category: "Open-source Models"
+    organization: "Ant Group"
+
+  - name: "DeepSeek-V3.2-Exp"
+    eval_file: "deepseek_v32_exp.csv"
+    story_column: "deepseek_v32_exp_story"
+    category: "Open-source Models"
+    organization: "DeepSeek"
+
+  - name: "Qwen3-235B-A22B-Thinking"
+    eval_file: "qwen3_235b_thinking.csv"
+    story_column: "qwen3_235b_thinking_story"
+    category: "Open-source Models"
+    organization: "Alibaba"
+
+  - name: "GLM-4.5"
+    eval_file: "glm45.csv"
+    story_column: "glm45_story"
+    category: "Open-source Models"
+    organization: "ZhipuAI"
+
+  - name: "Ling-1T"
+    eval_file: "ling_1t.csv"
+    story_column: "ling_1t_story"
+    category: "Open-source Models"
+    organization: "Ant Group"
+
+  - name: "Step3"
+    eval_file: "step3.csv"
+    story_column: "step3_story"
+    category: "Open-source Models"
+    organization: "StepFun"
+
+  - name: "Qwen3-Next-80B-Thinking"
+    eval_file: "qwen3_next_80b_thinking.csv"
+    story_column: "qwen3_next_80b_a3b_thinking_story"
+    category: "Open-source Models"
+    organization: "Alibaba"
+
+  - name: "Kimi-K2-2509"
+    eval_file: "kimi_k2_2509.csv"
+    story_column: "kimi_k2_2509_story"
+    category: "Open-source Models"
+    organization: "Moonshot"
+
+  - name: "Kimi-K2-2507"
+    eval_file: "kimi_k2_2507.csv"
+    story_column: "kimi_k2_story"
+    category: "Open-source Models"
+    organization: "Moonshot"
+
+  - name: "Qwen3-235B-A22B"
+    eval_file: "qwen3_235b_a22b.csv"
+    story_column: "qwen3_235b_story"
+    category: "Open-source Models"
+    organization: "Alibaba"
+
+  - name: "Qwen3-Next-80B"
+    eval_file: "qwen3_next_80b.csv"
+    story_column: "qwen3_next_80b_story"
+    category: "Open-source Models"
+    organization: "Alibaba"
+
+  - name: "Qwen3-4B-Instruct-2507"
+    eval_file: "qwen3_4b_instruct_2507.csv"
+    story_column: "qwen3_4b_story"
+    category: "Open-source Models"
+    organization: "Alibaba"
+
+  - name: "Nvidia-Llama-3.1-Ultra"
+    eval_file: "nvidia_llama_31_ultra.csv"
+    story_column: "nvidia_llama_31_nemotron_ultra_253b_story"
+    category: "Open-source Models"
+    organization: "NVIDIA"
+
+  - name: "Qwen3-30B-A3B-Instruct-2507"
+    eval_file: "qwen3_30b_a3b_instruct_2507.csv"
+    story_column: "qwen3_30b_story"
+    category: "Open-source Models"
+    organization: "Alibaba"
+
+  - name: "DeepSeek-V3"
+    eval_file: "deepseek_v3.csv"
+    story_column: "deepseek_v3_story"
+    category: "Open-source Models"
+    organization: "DeepSeek"
+
+  - name: "QwenLong-L1-32B"
+    eval_file: "qwenlong_l1_32b.csv"
+    story_column: "qwenlong_l1_32b_story"
+    category: "Open-source Models"
+    organization: "Alibaba"
+
+  - name: "DeepSeek-R1"
+    eval_file: "deepseek_r1.csv"
+    story_column: "deepseek_r1_story"
+    category: "Open-source Models"
+    organization: "DeepSeek"
+
+  - name: "MiniMax-M1-80k"
+    eval_file: "minimax_m1_80k.csv"
+    story_column: "minimax_m1_80k_story"
+    category: "Open-source Models"
+    organization: "MiniMax"
+
+  # ============ Capability-enhanced LLMs ============
+  - name: "LongWriter-Zero-32B"
+    eval_file: "longwriter_zero_32b.csv"
+    story_column: "longwriter_zero_32b_story"
+    category: "Capability-enhanced LLMs"
+    organization: "SUTD"
+
+  - name: "Suri-ORPO"
+    eval_file: "suri_orpo.csv"
+    story_column: "suri_orpo_story"
+    category: "Capability-enhanced LLMs"
+    organization: "UMass Amherst"
+
+  - name: "LongAlign-13B"
+    eval_file: "longalign_13b.csv"
+    story_column: "longalign_13b_story"
+    category: "Capability-enhanced LLMs"
+    organization: "Tsinghua"
+
+  # ============ Agent-enhanced Systems ============
+  - name: "SuperWriter"
+    eval_file: "superwriter.csv"
+    story_column: "superwriter_story"
+    category: "Agent-enhanced Systems"
+    organization: "SUTD"
+
+  - name: "DOME"
+    eval_file: "dome.csv"
+    story_column: "dome_story"
+    category: "Agent-enhanced Systems"
+    organization: "SCUT"
