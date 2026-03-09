@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://picrew.github.io/constory-bench.github.io/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"/></a>
-  <a href=""><img src="https://img.shields.io/badge/arXiv-Paper-red" alt="arXiv"/></a>
+  <a href="https://arxiv.org/abs/2603.05890"><img src="https://img.shields.io/badge/arXiv-2603.05890-red" alt="arXiv"/></a>
   <a href="https://huggingface.co/datasets/jayden8888/ConStory-Bench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow" alt="Dataset"/></a>
   <a href="https://picrew.github.io/constory-bench.github.io/leadboard/"><img src="https://img.shields.io/badge/%F0%9F%8F%86%20Leaderboard-Live-green" alt="Leaderboard"/></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/></a>
@@ -41,6 +41,11 @@ ConStory-Checker detects consistency errors across **5 categories** (19 subtypes
 </p>
 
 🏆 **With ConStory-Bench, we aim to track how well LLMs maintain narrative consistency as they scale. View our [Leaderboard](https://picrew.github.io/constory-bench.github.io/leadboard/) (updating).**
+
+## 📄 Paper
+
+- arXiv Abstract: https://arxiv.org/abs/2603.05890
+- arXiv PDF: https://arxiv.org/pdf/2603.05890
 
 ## 📦 Dataset
 
@@ -238,11 +243,14 @@ ConStory-Bench/
 ## 📝 Citation
 
 ```bibtex
-@article{constorybench2025,
+@misc{li2026loststoriesconsistencybugs,
   title={Lost in Stories: Consistency Bugs in Long Story Generation by LLMs},
-  author={Anonymous},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+  author={Junjie Li and Xinrui Guo and Yuhao Wu and Roy Ka-Wei Lee and Hongzhi Li and Yutao Xie},
+  year={2026},
+  eprint={2603.05890},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2603.05890}
 }
 ```
 

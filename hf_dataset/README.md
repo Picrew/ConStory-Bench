@@ -28,10 +28,16 @@ size_categories:
 
 <p align="center">
   <a href="https://picrew.github.io/constory-bench.github.io/">Project Page</a> •
-  <a href="">arXiv</a> •
+  <a href="https://arxiv.org/abs/2603.05890">arXiv</a> •
   <a href="https://github.com/Picrew/ConStory-Bench">GitHub</a> •
   <a href="https://picrew.github.io/constory-bench.github.io/leadboard/">Leaderboard</a>
 </p>
+
+## 📄 Paper
+
+- Title: *Lost in Stories: Consistency Bugs in Long Story Generation by LLMs*
+- arXiv Abstract: https://arxiv.org/abs/2603.05890
+- arXiv PDF: https://arxiv.org/pdf/2603.05890
 
 ## 🔍 What is ConStory-Bench?
 
@@ -169,11 +175,14 @@ eval_df = pd.read_csv("hf://datasets/jayden8888/ConStory-Bench/evaluations/gpt5_
 ## 📝 Citation
 
 ```bibtex
-@article{constorybench2025,
+@misc{li2026loststoriesconsistencybugs,
   title={Lost in Stories: Consistency Bugs in Long Story Generation by LLMs},
-  author={Anonymous},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
-  year={2025}
+  author={Junjie Li and Xinrui Guo and Yuhao Wu and Roy Ka-Wei Lee and Hongzhi Li and Yutao Xie},
+  year={2026},
+  eprint={2603.05890},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2603.05890}
 }
 ```
 
